@@ -25,11 +25,9 @@ If you don't already have Docker installed, head to [docker.com/get-started](htt
 
 Follow the install instructions for creating a fresh Laravel app from [their documentation](https://laravel.com/docs/9.x#your-first-laravel-project).
 
-On MacOS, run the following command, changing `example-app` to anything you want.
-
-```shell
-curl -s "https://laravel.build/example-app" | bash
-```
+:::tip
+Make sure you install a version of Laravel that's [compatible with Statamic](https://statamic.dev/installing/laravel#supported-versions-of-laravel).
+:::
 
 ## Statamic Docker-Composer File
 
